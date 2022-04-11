@@ -1,0 +1,29 @@
+POVEDA
+
+Font
+Jacques Francois
+Poppins, Sans-serif
+
+
+Color
+white		#fff
+darkgray	#2e3a2a		
+darklategray	#485342
+lightgray	#c7cec9
+gainsboro	#dbe2dd
+dimgray		#5c6756		About Us
+
+
+
+
+	
+	
+
+
+
+
+
+
+
+
+
