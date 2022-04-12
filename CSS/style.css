@@ -104,3 +104,21 @@ body {
 .licence h3 {
     margin-bottom: 25px;
 }
+
+.place-to-be {
+    background-color: #dbe2dd;
+}
+
+.in-love {
+    background-color: #485342;
+}
+
+.fl-setup {
+    display: flex;
+    align-items: center;
+}
+
+.fl-setup-img,
+.fl-setup-cont {
+    width: 50%;
+}
