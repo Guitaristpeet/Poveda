@@ -29,18 +29,15 @@
 .header-nav {
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
 }
 
 .header-nav a {
     margin-left: 45px;
-    /* background-color: blue; */
 }
 
 .visit {
     height: 30px;
     display: flex;
-    /* align-items: center; */
 
     position: relative;
 }
@@ -52,7 +49,6 @@
 }
 
 .visit-options {
-    /* display: none; */
     display: flex;
     flex-direction: column;
     background-color: #485342;
