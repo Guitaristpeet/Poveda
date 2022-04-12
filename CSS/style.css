@@ -25,7 +25,7 @@ body {
 }
 
 .hero {
-    background-image: url(/ASSETS/IMAGES/image-vertical.jpg);
+    background-image: url(/ASSETS/IMAGES/image-horizontal.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -54,4 +54,53 @@ body {
     border: solid 3px #fff;
     padding: 6px 40px;
     border-radius: 30px;
+}
+
+.button-gray {
+    border: solid 3px #485342;
+}
+
+.licence {
+    background-color: #c7cec9;
+}
+
+.md-setup {
+    text-align: center;
+    padding: 140px 0 150px 0;
+}
+
+.md-setup-img1,
+.md-setup-img2,
+.md-setup-img3 {
+    width: 325px;
+    height: 365px;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    margin-bottom: 25px;
+}
+
+.licence-adventure .md-setup-img1 {
+    background-image: url(/ASSETS/IMAGES/image-vertical.jpg);
+}
+
+.licence-culture .md-setup-img2 {
+    background-image: url(/ASSETS/IMAGES/image-vertical.jpg);
+}
+
+.licence-relaxation .md-setup-img3 {
+    background-image: url(/ASSETS/IMAGES/image-vertical.jpg);
+}
+
+.md-setup-flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.licence h2 {
+    margin-bottom: 75px;
+}
+
+.licence h3 {
+    margin-bottom: 25px;
 }

@@ -5,12 +5,17 @@ body {
 
 span,
 h1,
-h2 {
+h2,
+h3 {
     font-family: 'Jacques Francois', serif;
 }
 
 .f-white {
     color: #fff;
+}
+
+.f-gray {
+    color: #485342;
 }
 
 .upper {
@@ -26,7 +31,7 @@ h2 {
 }
 
 h3 {
-    font-size: 40px;
+    font-size: 32px;
 }
 
 nav a,
@@ -47,4 +52,6 @@ nav a {
 48
 112
 18
-14 */
+14 
+
+32*/
