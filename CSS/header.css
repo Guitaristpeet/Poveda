@@ -29,24 +29,66 @@
 .header-nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .header-nav a {
     margin-left: 45px;
+    /* background-color: blue; */
 }
 
 .visit {
     height: 30px;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
+
+    position: relative;
 }
 
 .visit svg {
     color: #fff;
     margin-left: 10px;
+    margin-top: 7px;
 }
 
 .visit-options {
-    display: none;
+    /* display: none; */
+    display: flex;
+    flex-direction: column;
+    background-color: #485342;
+    border-radius: 5px;
+
+    position: absolute;
+    top: 63px;
+    left: 42px;
+    padding: 13px 0 0 0;
+
+    transform: translateY(-10%);
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+.visit-options a {
+    width: fit-content;
+    margin: 0 25px 16px 25px;
+}
+
+.header-nav a:hover {
+    border-bottom: solid 1px #fff;
+    margin-bottom: 6px;
+}
+
+.visit-options a:hover {
+    border-bottom: solid 1px #fff;
+    margin-bottom: 13px;
+    padding-bottom: 2px;
+}
+
+.visit:hover .visit-options {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.visit:hover svg {
+    transform: rotate(180deg);
 }
