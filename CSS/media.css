@@ -1,0 +1,98 @@
+@media (max-width: 1260px) {
+    .container {
+        width: 100vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 920px) {
+    .logo {
+        font-size: 15px;
+    }
+
+    .header-nav {
+        display: none;
+    }
+
+    .header-bg {
+        background-color: #485342;
+        height: 73px;
+    }
+
+    .header {
+        padding: 24px 15px;
+    }
+
+    .menu-btn {
+        display: flex;
+    }
+
+    body {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 56px;
+    }
+    
+    h2 {
+        font-size: 32px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    .hero {
+        height: 600px;
+    }
+
+    .hero div {
+        height: 600px;
+        padding: 210px 15px 0 15px;
+    }
+
+    .hero p {
+        margin-bottom: 35px;
+        width: 100%;
+    }
+
+    .hero h2,
+    .hero h1 {
+        margin-bottom: 0px;
+    }
+
+    .md-setup {
+        /* text-align: center; */
+        padding: 80px 15px;
+    }
+
+    .md-setup-flex {
+        flex-direction: column;
+    }
+
+    .md-setup-img1,
+    .md-setup-img2,
+    .md-setup-img3 {
+        width: 100%;
+        height: 100vh;
+        margin-bottom: 15px;
+    }
+
+    .licence h2 {
+        margin-bottom: 50px;
+    }
+    
+    .licence h3 {
+        margin-bottom: 15px;
+    }
+
+    .licence button {
+        margin-bottom: 55px;
+    }
+
+    .licence-relaxation button {
+        margin-bottom: 0px;
+    }
+}

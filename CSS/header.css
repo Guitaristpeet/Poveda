@@ -92,3 +92,56 @@
 .visit:hover svg {
     transform: rotate(180deg);
 }
+
+.menu-btn {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    position: relative;
+    transition: all 0.3s ease;
+
+    display: none;
+}
+
+.menu-btn-burger {
+    width: 23px;
+    height: 2px;
+    background: #fff;
+
+    transition: all 0.3s ease;
+}
+
+.menu-btn-burger::before,
+.menu-btn-burger::after {
+    content: '';
+    width: 23px;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    
+    transition: all 0.3s ease;
+}
+
+.menu-btn-burger::before {
+    transform: translateY(-7px);
+}
+
+.menu-btn-burger::after {
+    transform: translateY(7px);
+}
+
+.menu-btn.open .menu-btn-burger {
+    background: transparent;
+}
+
+.menu-btn.open .menu-btn-burger::before {
+    transform: rotate(45deg);
+}
+
+.menu-btn.open .menu-btn-burger::after {
+    transform: rotate(-45deg);
+}
