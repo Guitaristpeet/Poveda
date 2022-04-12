@@ -1,0 +1,52 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+.header-bg {
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 100%;
+    z-index: 1;
+
+    transition: all 0.3s ease;
+}
+
+.appear {
+    background-color: #485342;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav a {
+    margin-left: 45px;
+}
+
+.visit {
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.visit svg {
+    color: #fff;
+    margin-left: 10px;
+}
+
+.visit-options {
+    display: none;
+}
