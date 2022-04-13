@@ -114,6 +114,10 @@ body {
     margin-bottom: 25px;
 }
 
+.h4-sm {
+    display: none;
+}
+
 .place-to-be {
     background-color: #dbe2dd;
 }
@@ -147,8 +151,9 @@ body {
     background-image: url(/ASSETS/IMAGES/image-horizontal.jpg);
 }
 
-.fl-setup-cont h4 {
+.fl-setup-cont .h4-b {
     margin-bottom: 20px;
+    width: 370px;
 }
 
 .fl-setup-cont p {
@@ -158,14 +163,18 @@ body {
     margin-bottom: 27px;
 }
 
+.in-love .h4-b {
+    width: 330px;
+}
+
 .in-love .fl-setup {
     flex-direction: row-reverse;
 }
 
-.place-to-be .fl-setup-cont {
-    padding-left: 100px;
+.in-love .fl-setup-cont {
+    padding-left: 5vw;
 }
 
-.in-love .fl-setup-cont {
-    padding-left: 130px;
+.place-to-be .fl-setup-cont {
+    padding-left: 100px;
 }

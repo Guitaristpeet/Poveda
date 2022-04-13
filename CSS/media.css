@@ -4,6 +4,10 @@
         margin-left: auto;
         margin-right: auto;
     }
+
+    .place-to-be .fl-setup-cont {
+        padding-left: 70px;
+    }
 }
 
 @media (max-width: 1070px) {
@@ -11,6 +15,14 @@
     .licence-culture,
     .licence-relaxation {
         width: 290px;
+    }
+
+    .fl-setup-cont h4 {
+        width: 29vw;
+    }
+
+    .fl-setup-cont p {
+        width: 37vw;
     }
 }
 
@@ -191,5 +203,59 @@
 
     .licence-relaxation button {
         margin-bottom: 0px;
+    }
+
+    .fl-setup,
+    .in-love .fl-setup {
+        flex-direction: column;
+    }
+
+    .fl-setup-img,
+    .fl-setup-cont {
+        width: 100%;
+    }
+
+    .fl-setup-img {
+        height: 70vh;
+    }
+
+    .fl-setup h4 {
+        font-size: 28px;
+    }
+
+    .place-to-be {
+        padding: 100px 15px;
+    }
+   
+    .in-love {
+        padding: 100px 15px;
+    }
+    .fl-setup-cont h4 {
+        width: 100%;
+    }
+    
+    .fl-setup-cont p {
+        width: 100%;
+        /* margin-bottom: 27px; */
+    }
+
+    .in-love .fl-setup-cont,
+    .place-to-be .fl-setup-cont {
+        padding: 0;
+    }
+
+    .h4-b {
+        display: none;
+    }
+
+    .h4-sm {
+        width: 100%;
+        display: block;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+
+    .fl-setup-img {
+        margin-bottom: 30px;
     }
 }
