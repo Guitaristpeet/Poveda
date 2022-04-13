@@ -89,6 +89,21 @@
     transform: rotate(180deg);
 }
 
+.menu {
+    transform: translateY(-10%);
+    display: none;
+
+    transition: all 0.3s ease;
+}
+
+.menu-options {
+    transform: translateY(-50%);
+    opacity: 0;
+    display: none;
+
+    transition: all 0.3s ease;
+}
+
 .menu-btn {
     width: 25px;
     height: 25px;

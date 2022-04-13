@@ -1,18 +1,20 @@
 @media (max-width: 1260px) {
     .container {
-        width: 100vw;
+        width: 85vw;
         margin-left: auto;
         margin-right: auto;
     }
 }
 
 @media (max-width: 920px) {
-    .logo {
-        font-size: 15px;
+    .container {
+        width: 100vw;
+        margin-left: auto;
+        margin-right: auto;
     }
 
-    .header-nav {
-        /* display: none; */
+    .logo {
+        font-size: 15px;
     }
 
     .header-bg {
@@ -44,83 +46,87 @@
         font-size: 24px;
     }
 
-    
-    .header-nav {
-        position: absolute;
-        top: 73px;
-        left: 0;
+    .header nav {
+        display: none;
+    }
+
+    .menu {
         width: 100%;
-        flex-direction: column;
-        
-        text-align: right;
+        height: 190px;
         background-color: #485342;
-        padding: 25px 15px;
-    }
-    
-    .header-nav a {
-        margin-left: auto;
-        margin-bottom: 30px;
-        width: fit-content;
+        position: fixed;
+        top: 73px;
     }
 
-    .header-nav a:last-child {
-        margin-bottom: 0;
-    }
-    
-    .visit {
-        flex-direction: row-reverse;
-        height: 21px;
-        margin-bottom: 30px;
-        margin-left: auto;
-        width: fit-content;
-    }
-
-    .visit a {
-        margin-left: 10px;
-    }
-
-    nav a {
+    .menu-box {
+        height: 320px;
         font-size: 16px;
+        text-align: right;
     }
 
-    .header-nav a:hover {
-        margin-bottom: 29px;
-    }
-    
-    .header-nav a:last-child:hover {
-        margin-bottom: -1px;
+    .menu-visit svg {
+        color: #fff;
     }
 
-    .visit-link:hover {
+    .menu-box a:hover {
         border-bottom: solid 1px #fff;
-        padding-bottom: 25px;
-
     }
 
-    /* .visit-options a:hover {
-        margin-bottom: 13px;
-        padding-bottom: 2px;
-    } */
-    
+    .menu-options {
+        width: 100%;
+        background-color: #6b7665;
+    }
 
-    .visit-options {
-        /* width: 100%; */
-        /* display: flex; */
+    .about-link,
+    .visit-adventure,
+    .visit-culture,
+    .visit-relax,
+    .pricing-link,
+    .contact-link {
         display: block;
-        flex-direction: column;
-        background-color: #6e97b6;
-        border-radius: 5px;
-    
-        position: absolute;
-        top: 50px;
-        left: 0;
-        padding: 13px 0 0 0;
-    
-        /* transform: translateY(-10%); */
-        opacity: 1;
-        transition: all 0.5s ease;
+        width: fit-content;
+        margin-left: auto;
     }
 
+    .about-link,
+    .visit-adventure,
+    .visit-culture,
+    .pricing-link {
+        margin-bottom: 20px;
+    }
+
+    .menu-visit {
+        margin-bottom: 10px;
+        padding: 0 15px;
+    }
+
+    .menu-options {
+        padding: 10px 15px;
+    }
+    .pricing-link {
+        padding-top: 10px;
+    }
+
+    .about-link,
+    .pricing-link,
+    .contact-link {
+        margin-right: 15px;
+    }
+
+    .menu.visible {
+        transform: translateY(0);
+        display: block;
+    }
+
+    .menu-options.slide {
+        transform: translateY(0);
+        opacity: 1;
+        display: block;
+    }
+
+    .menu.visible.shrink {
+        height: 320px;
+    }
 
     .hero {
         height: 600px;
