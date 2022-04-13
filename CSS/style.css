@@ -131,3 +131,41 @@ body {
 .fl-setup-cont {
     width: 50%;
 }
+
+.fl-setup-img {
+    height: 770px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.place-to-be .fl-setup-img {
+    background-image: url(/ASSETS/IMAGES/image-horizontal.jpg);
+}
+
+.in-love .fl-setup-img {
+    background-image: url(/ASSETS/IMAGES/image-horizontal.jpg);
+}
+
+.fl-setup-cont h4 {
+    margin-bottom: 20px;
+}
+
+.fl-setup-cont p {
+    letter-spacing: 1.3px;
+    line-height: 1.7;
+    width: 450px;
+    margin-bottom: 27px;
+}
+
+.in-love .fl-setup {
+    flex-direction: row-reverse;
+}
+
+.place-to-be .fl-setup-cont {
+    padding-left: 100px;
+}
+
+.in-love .fl-setup-cont {
+    padding-left: 130px;
+}
