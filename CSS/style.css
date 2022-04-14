@@ -178,3 +178,32 @@ body {
 .place-to-be .fl-setup-cont {
     padding-left: 100px;
 }
+
+.slide-container {
+    background-color: #2e3a2a;
+    width: 100vw;
+    padding: 170px 0;
+    text-align: center;
+    /* overflow: hidden; */
+}
+
+.slide-content {
+    width: 300vw;
+    display: flex;
+}
+
+.each-slide {
+    width: 15%;
+    margin: auto;
+
+}
+
+.testimonial {
+    margin-bottom: 20px;
+}
+
+blockquote {
+    line-height: 1.7;
+    margin-bottom: 35px;
+}
+

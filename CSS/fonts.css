@@ -39,13 +39,17 @@ h4 {
     font-size: 40px;
 }
 
-.fl-setup p {
+.fl-setup p,
+blockquote,
+.slide-content p {
     font-family: sans-serif;
 }
 
 nav a,
 .f-sm,
-button {
+button,
+blockquote,
+.slide-content p {
     font-size: 14px;
 }
 
