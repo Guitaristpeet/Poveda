@@ -40,37 +40,40 @@ arrow.addEventListener('click', slide => {
 
 const holder = document.querySelector('.holder');
 const slides = document.querySelectorAll('.holder div');
-
 const nextBtn = document.querySelector('#nextBtn');
 const prevBtn = document.querySelector('#prevBtn');
 
 let counter = 1;
-const slideWidth = slides[0].clientWidth;
-holder.style.transform = 'translateX(' + (-slideWidth * counter) + 'px)';
+let slideWidth = -100 * counter;
+holder.style.transform = 'translateX(' + slideWidth + 'vw)';
 
 nextBtn.addEventListener('click', () => {
     if (counter >= slides.length -1) return;
     holder.style.transition = 'transform 0.5s ease';
     counter++;
-    holder.style.transform = 'translateX(' + (-slideWidth * counter) + 'px)';
-})
+    slideWidth = -100 * counter;
+    holder.style.transform = 'translateX(' + slideWidth + 'vw)';
+});
 
 prevBtn.addEventListener('click', () => {
     if (counter <= 0) return;
     holder.style.transition = 'transform 0.5s ease';
     counter--;
-    holder.style.transform = 'translateX(' + (-slideWidth * counter) + 'px)';
-})
+    slideWidth = -100 * counter;
+    holder.style.transform = 'translateX(' + slideWidth + 'vw)';
+});
 
 holder.addEventListener('transitionend', () => {
     if (slides[counter].id === 'lastClone') {
         holder.style.transition = 'none';
         counter = slides.length - 2;
-        holder.style.transform = 'translateX(' + (-slideWidth * counter) + 'px)';
+        slideWidth = -100 * counter;
+        holder.style.transform = 'translateX(' + slideWidth + 'vw)';
     }
     else if (slides[counter].id === 'firstClone') {
         holder.style.transition = 'none';
         counter = slides.length - counter;
-        holder.style.transform = 'translateX(' + (-slideWidth * counter) + 'px)';
+        slideWidth = -100 * counter;
+        holder.style.transform = 'translateX(' + slideWidth + 'vw)';
     }
-})
+});
