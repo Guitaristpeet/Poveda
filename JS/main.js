@@ -38,54 +38,39 @@ arrow.addEventListener('click', slide => {
     }
 })
 
-// const slide = document.querySelector('.slide-content')
-// const slideDiv = document.querySelectorAll('.slide-content div')
-// // slideDiv.forEach((el, index) => {
-// //     position = index + 1
-// //     console.log(position);
-// // });
-// const prevBtn = document.querySelector('#prevBtn')
-// const nextBtn = document.querySelector('#nextBtn')
+const holder = document.querySelector('.holder');
+const slides = document.querySelectorAll('.holder div');
 
-// let position = 1;
-// const size = slideDiv[0].clientWidth;
-// // slide.style.transform = 'translateX(' + (-size * position) + 'px)';
+const nextBtn = document.querySelector('#nextBtn');
+const prevBtn = document.querySelector('#prevBtn');
 
-// const nextCont = slideRight => {
-//     position++;
-//     slide.style.transform = 'translateX(' + (-100 * position) + 'px)';
-//     console.log(position);
-// }
-// const prevCont = slideLeft => {
-//     position--;
-//     slide.style.transform = 'translateX(' + (100 * position) + 'px)';
-//     console.log(position);
-// }
+let counter = 1;
+const slideWidth = slides[0].clientWidth;
+holder.style.transform = 'translateX(' + (-slideWidth * counter) + 'px)';
 
-// nextBtn.addEventListener('click', nextCont);
-// prevBtn.addEventListener('click', prevCont);
+nextBtn.addEventListener('click', () => {
+    if (counter >= slides.length -1) return;
+    holder.style.transition = 'transform 0.5s ease';
+    counter++;
+    holder.style.transform = 'translateX(' + (-slideWidth * counter) + 'px)';
+})
 
-const slide = document.querySelector('.slide-content')
-const slideDiv = document.querySelectorAll('.slide-content div')
-const prevBtn = document.querySelector('#prevBtn')
-const nextBtn = document.querySelector('#nextBtn')
+prevBtn.addEventListener('click', () => {
+    if (counter <= 0) return;
+    holder.style.transition = 'transform 0.5s ease';
+    counter--;
+    holder.style.transform = 'translateX(' + (-slideWidth * counter) + 'px)';
+})
 
-const currentSlide = 0
-const totalSlide = slideDiv.length
-
-const moveSlide = function () {
-    unit = -currentSlide * 100;
-    slide.style.transform = 'translateX(' + unit + 'vw)';
-}
-
-const nextSlide = () => {
-    currentSlide += 1;
-
-    if (currentSlide >= totalSlide) {
-        currentSlide = 0
+holder.addEventListener('transitionend', () => {
+    if (slides[counter].id === 'lastClone') {
+        holder.style.transition = 'none';
+        counter = slides.length - 2;
+        holder.style.transform = 'translateX(' + (-slideWidth * counter) + 'px)';
     }
-
-    moveSlide(currentSlide);
-}
-
-nextBtn.addEventListener('click', nextSlide);
+    else if (slides[counter].id === 'firstClone') {
+        holder.style.transition = 'none';
+        counter = slides.length - counter;
+        holder.style.transform = 'translateX(' + (-slideWidth * counter) + 'px)';
+    }
+})
