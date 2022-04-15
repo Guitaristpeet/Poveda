@@ -110,7 +110,7 @@ body {
     margin-bottom: 75px;
 }
 
-.licence h3 {
+.md-setup h3 {
     margin-bottom: 25px;
 }
 
@@ -244,4 +244,82 @@ blockquote {
 
 .arrow-left {
     left: 5%;
+}
+
+.follow {
+    background-color: #c7cec9;
+}
+
+.follow-adventure .md-setup-img1 {
+    background-image: url(/ASSETS/IMAGES/image-vertical.jpg);
+}
+
+.follow-culture .md-setup-img2 {
+    background-image: url(/ASSETS/IMAGES/image-vertical.jpg);
+}
+
+.follow-relaxation .md-setup-img3 {
+    background-image: url(/ASSETS/IMAGES/image-vertical.jpg);
+}
+
+.follow-adventure,
+.follow-culture,
+.follow-relaxation {
+    width: 320px;
+    text-align: center;
+}
+
+.follow h2 {
+    margin-bottom: 75px;
+}
+
+.follow .md-setup-flex {
+    margin-bottom: 30px;
+}
+
+.subscribe {
+    background-color: #485342;
+    display: flex;
+    /* align-items: center; */
+    padding: 130px 0;
+}
+
+.sub-cont,
+.sub-form {
+    width: 50%;
+}
+
+.sub-cont p {
+    max-width: 460px;
+}
+
+.sub-cont h2 {
+    margin-bottom: 10px;
+}
+
+.sub-cont {
+    padding: 0 10vw 0 10vw;
+}
+
+.sub-cont p,
+.sub-cont h2 {
+    transform: translateY(-47%);
+}
+
+.sub-form input {
+    border: none;
+    outline: none;
+    background-color: #b4bab6;
+    padding: 8px 15px;
+    width: 33vw;
+    margin-bottom: 20px;
+}
+
+.sub-form input::placeholder {
+    font-size: 14px;
+}
+
+.sub-form label {
+    display: inline-block;
+    margin-bottom: 7px;
 }
