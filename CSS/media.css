@@ -290,4 +290,42 @@
     .sub-form input {        
         width: 100%;
     }
+
+    .footer {
+        padding: 100px 15px;
+    }
+
+    .footer-content {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .footer-content,
+    .footer-right {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .footer-left,
+    .footer-right,
+    .footer-nav, 
+    .footer-contact {
+        width: 100%;
+    }
+
+    .footer-nav a {
+        width: 100%;
+    }    
+
+    .footer .logo {
+        display: block;
+        height: fit-content;
+        width: fit-content;
+        font-size: 56px;
+        margin-bottom: 20px;
+    }
+
+    .footer-nav {
+        margin-bottom: 20px;
+    }
 }
