@@ -279,8 +279,10 @@ blockquote {
 
 .subscribe {
     background-color: #485342;
+}
+
+.sub-detail {
     display: flex;
-    /* align-items: center; */
     padding: 130px 0;
 }
 
@@ -295,10 +297,6 @@ blockquote {
 
 .sub-cont h2 {
     margin-bottom: 10px;
-}
-
-.sub-cont {
-    padding: 0 10vw 0 10vw;
 }
 
 .sub-cont p,
