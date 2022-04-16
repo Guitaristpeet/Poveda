@@ -1,4 +1,4 @@
-const headerBg = document.querySelector('.header-bg')
+const headerBg = document.querySelector('.header-bg');
 inView('.hero')
     .on('enter', removebg => {
         headerBg.classList.remove('appear')
@@ -8,18 +8,23 @@ inView('.hero')
     });
 inView.threshold(0.9);
 
-const menuBtn = document.querySelector('.menu-btn')
-const menuBox = document.querySelector('.menu')
+const menuBtn = document.querySelector('.menu-btn');
+const menuBox = document.querySelector('.menu');
+
 let menuOpen = false;
 menuBtn.addEventListener('click', open => {
     if (!menuOpen) {
         menuBtn.classList.add('open');
         menuBox.classList.add('visible');
+        menuBox.style.boxShadow = 'box-shadow: 0 0 2px 1px #000';
         menuOpen = true;
+        headerBg.style.boxShadow = 'none';
     } else {
         menuBtn.classList.remove('open');
         menuBox.classList.remove('visible');
+        menuBox.style.boxShadow = 'none';
         menuOpen = false;
+        headerBg.style.boxShadow = 'box-shadow: 0 0 2px 1px #000';
     }
 });
 

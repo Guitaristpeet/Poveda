@@ -54,6 +54,14 @@ body {
     border: solid 3px #fff;
     padding: 6px 40px;
     border-radius: 30px;
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+}
+
+.button-white:hover {
+    border: solid 3px #c7cec9;
+    color: #c7cec9;
 }
 
 .button-gray {

@@ -43,6 +43,15 @@
     .header-bg {
         background-color: #485342;
         height: 73px;
+        box-shadow: 0 0 2px 1px #000;
+    }
+
+    .appear {
+        box-shadow: none;
+    }
+
+    .menu {
+        z-index: 5;
     }
 
     .header {
@@ -78,7 +87,7 @@
         height: 190px;
         background-color: #485342;
         position: fixed;
-        top: 73px;
+        top: 70px;
     }
 
     .menu-box {
