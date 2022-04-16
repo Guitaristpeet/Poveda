@@ -24,6 +24,10 @@ body {
     margin-right: auto;
 }
 
+.header .logo {
+    cursor: pointer;
+}
+
 .hero {
     background-image: url(/ASSETS/IMAGES/image-horizontal.jpg);
     background-size: cover;
