@@ -16,7 +16,7 @@ menuBtn.addEventListener('click', open => {
     if (!menuOpen) {
         menuBtn.classList.add('open');
         menuBox.classList.add('visible');
-        menuBox.style.boxShadow = 'box-shadow: 0 0 2px 1px #000';
+        menuBox.style.boxShadow = '0px 5px 2px 0px rgba(0,0,0,0.19)';
         menuOpen = true;
         headerBg.style.boxShadow = 'none';
     } else {
@@ -24,7 +24,7 @@ menuBtn.addEventListener('click', open => {
         menuBox.classList.remove('visible');
         menuBox.style.boxShadow = 'none';
         menuOpen = false;
-        headerBg.style.boxShadow = 'box-shadow: 0 0 2px 1px #000';
+        headerBg.style.boxShadow = '0 0 2px 1px #000';
     }
 });
 

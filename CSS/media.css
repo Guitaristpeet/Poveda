@@ -41,13 +41,10 @@
     }
 
     .header-bg {
+        opacity: 1;
         background-color: #485342;
         height: 73px;
         box-shadow: 0 0 2px 1px #000;
-    }
-
-    .appear {
-        box-shadow: none;
     }
 
     .menu {

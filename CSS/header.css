@@ -11,20 +11,21 @@
 }
 
 .header-bg {
-    background-color: transparent;
     position: fixed;
     top: 0;
     left: 0;
     height: 100px;
     width: 100%;
     z-index: 1;
+    opacity: 0;
 
     transition: all 0.3s ease;
 }
 
-.appear {
+.header-bg.appear {
+    opacity: 1;
     background-color: #485342;
-    box-shadow: 0 0 2px 1px #000;
+    box-shadow: 0 0 2px 1px #000 !important;
 }
 
 .header-nav {
