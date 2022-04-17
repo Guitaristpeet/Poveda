@@ -333,3 +333,8 @@ blockquote {
     display: inline-block;
     margin-bottom: 7px;
 }
+
+.selected {
+    border-bottom: solid 1px #fff;
+    margin-bottom: 6px;
+}
