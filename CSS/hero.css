@@ -1,0 +1,63 @@
+.hero {
+    background-image: url(/ASSETS/IMAGES/image-horizontal.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 930px;
+}
+
+.hero div {
+    height: 930px;
+    padding: 310px 0 200px 0;
+}
+
+.hero h2,
+.hero h1 {
+    margin-bottom: 10px;
+}
+
+.hero p {
+    margin-bottom: 40px;
+    width: 660px;
+}
+
+.minor-pg .hero {
+    height: 590px;
+}
+
+.minor-pg .hero div {
+    height: 590px;
+    padding: 240px 0 100px 0;
+}
+
+
+@media (max-width: 920px) {
+    .hero {
+        height: 600px;
+    }
+
+    .hero div {
+        height: 600px;
+        padding: 210px 15px 0 15px;
+    }
+
+    .hero p {
+        margin-bottom: 35px;
+        width: 100%;
+    }
+
+    .hero h2,
+    .hero h1 {
+        margin-bottom: 0px;
+    }
+
+    .minor-pg .hero {
+        height: 330px;
+    }
+
+    .minor-pg .hero div {
+        height: 330px;
+        padding: 140px 15px 0 15px;
+    }
+}

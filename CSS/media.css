@@ -157,25 +157,6 @@
         height: 320px;
     }
 
-    .hero {
-        height: 600px;
-    }
-
-    .hero div {
-        height: 600px;
-        padding: 210px 15px 0 15px;
-    }
-
-    .hero p {
-        margin-bottom: 35px;
-        width: 100%;
-    }
-
-    .hero h2,
-    .hero h1 {
-        margin-bottom: 0px;
-    }
-
     .md-setup {
         padding: 80px 15px;
     }
