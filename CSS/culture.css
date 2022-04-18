@@ -1,0 +1,18 @@
+.culture-pg .info-cont {
+    max-width: 60vw;
+}
+
+.culture-pg .info p {
+    max-width: 40vw;
+    margin: 0 auto;
+}
+
+@media (max-width: 920px) {
+    .culture-pg .info-cont {
+        max-width: 100%;
+    }
+
+    .culture-pg .info p {
+        max-width: 100%;
+    }
+}
