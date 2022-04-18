@@ -17,16 +17,6 @@
     letter-spacing: 0.7px;
 }
 
-@media (max-width: 920px) {
-    .info {
-        padding: 70px 15px;
-    }
-
-    .info-cont {
-        max-width: 100%;
-    }
-}
-
 .jessie {
     background-color: #485342;
 }
@@ -52,7 +42,7 @@
 }
 
 .miller .fl-setup-cont {
-    padding-left: 5vw;
+    width: 610px;
 }
 
 .jessie .fl-setup-cont {
@@ -86,6 +76,20 @@
     .jessie .fl-setup-cont {
         padding-left: 70px;
     }
+
+    .miller .fl-setup-cont {
+        width: 47.5vw;
+    }
+}
+
+@media (max-width: 920px) {
+    .info {
+        padding: 70px 15px;
+    }
+
+    .info-cont {
+        max-width: 100%;
+    }
 }
 
 @media (max-width: 920px) {
@@ -98,12 +102,20 @@
         padding: 0;
     }
 
+    .miller .fl-setup-cont {
+        width: 100%;
+    }
+
     .jessie,
     .miller {
         padding: 100px 15px;
     }
 
     .sub-form textarea {        
+        width: 100%;
+    }
+
+    .miller .fl-setup-cont p {
         width: 100%;
     }
 }

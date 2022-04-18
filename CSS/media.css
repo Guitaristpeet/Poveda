@@ -1,3 +1,9 @@
+/* @media (min-width: 1700px) {
+    .in-love .fl-setup-cont {
+        padding-left: 14vw;
+    }
+} */
+
 @media (max-width: 1260px) {
     .container {
         width: 95vw;
@@ -7,6 +13,10 @@
 
     .place-to-be .fl-setup-cont {
         padding-left: 70px;
+    }
+
+    .in-love .fl-setup-cont {
+        width: 47.5vw;
     }
 }
 
@@ -226,6 +236,7 @@
     .in-love {
         padding: 100px 15px;
     }
+
     .fl-setup-cont h4 {
         width: 100%;
     }
@@ -238,6 +249,10 @@
     .in-love .fl-setup-cont,
     .place-to-be .fl-setup-cont {
         padding: 0;
+    }
+
+    .in-love .fl-setup-cont {
+        width: 100%;
     }
 
     .h4-b {
