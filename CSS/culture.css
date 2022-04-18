@@ -17,11 +17,6 @@
     }
 }
 
-/* Roads -> colorful
-Playful -> ancient
-Impressive -> exotic
- */
-
  .culture-pg .fl-setup-img {
     height: 590px;
 }
@@ -65,4 +60,55 @@ Impressive -> exotic
 .colorful .fl-setup-cont,
 .exotic .fl-setup-cont {
     padding-left: 100px;
+}
+
+.culture-pg .offer {
+    background-color: #5c6756;
+}
+
+@media (max-width: 1260px) {
+    .colorful .fl-setup-cont,
+    .exotic .fl-setup-cont {
+        padding-left: 70px;
+    }
+
+    .ancient .fl-setup-cont {
+        width: 47.5vw;
+    }
+}
+
+/* Roads -> colorful
+Playful -> ancient
+Impressive -> exotic
+ */
+
+ @media (max-width: 920px) {
+    .ancient .fl-setup {
+        flex-direction: column;
+    }
+
+    .colorful .fl-setup-cont,
+    .ancient .fl-setup-cont,
+    .exotic .fl-setup-cont {
+        padding: 0;
+    }
+
+    .ancient .fl-setup-cont {
+        width: 100%;
+    }
+
+    .colorful,
+    .friendly,
+    .ancient,
+    .exotic {
+        padding: 70px 15px;
+    }
+
+    .ancient .fl-setup-cont p {
+        width: 100%;
+    }
+
+    .culture-pg .fl-setup-img {
+        height: 51vh;
+    }
 }
