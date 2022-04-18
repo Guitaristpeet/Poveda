@@ -1,0 +1,18 @@
+.adventure-pg .info-cont {
+    max-width: 60vw;
+}
+
+.adventure-pg .info p {
+    max-width: 40vw;
+    margin: 0 auto;
+}
+
+@media (max-width: 920px) {
+    .adventure-pg .info-cont {
+        max-width: 100%;
+    }
+
+    .adventure-pg .info p {
+        max-width: 100%;
+    }
+}
