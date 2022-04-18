@@ -1,0 +1,59 @@
+.contact-pg .info-cont {
+    max-width: 60vw;
+}
+
+.contact-pg .info p {
+    max-width: 40vw;
+    margin: 0 auto;
+}
+
+@media (max-width: 920px) {
+    .contact-pg .info-cont {
+        max-width: 100%;
+    }
+
+    .contact-pg .info p {
+        max-width: 100%;
+    }
+}
+
+.contact-pg .come-visit .sub-cont p,
+.contact-pg .come-visit .sub-cont h2 {
+    transform: translateY(0);
+}
+
+.contact-pg .come-visit h4 {
+    margin-bottom: 20px;
+}
+
+.headquarters p,
+.contact p {
+    line-height: 2;
+}
+
+.headquarters p {
+    margin-bottom: 65px;
+}
+
+.contact p {
+    margin-bottom: 35px;
+}
+
+.come-visit nav a {
+    margin-right: 20px;
+}
+
+.come-visit svg {
+    color: #fff;
+}
+
+@media (max-width: 920px) {
+    .headquarters h4,
+    .contact h4 {
+        font-size: 28px;
+    }
+}
+
+.contact-pg .follow {
+    background-color: #dbe2dd;
+}
