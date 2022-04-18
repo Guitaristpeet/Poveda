@@ -17,7 +17,7 @@
     }
 }
 
- .culture-pg .fl-setup-img {
+.culture-pg .fl-setup-img {
     height: 590px;
 }
 
@@ -77,11 +77,6 @@
     }
 }
 
-/* Roads -> colorful
-Playful -> ancient
-Impressive -> exotic
- */
-
  @media (max-width: 920px) {
     .ancient .fl-setup {
         flex-direction: column;
@@ -98,7 +93,6 @@ Impressive -> exotic
     }
 
     .colorful,
-    .friendly,
     .ancient,
     .exotic {
         padding: 70px 15px;
