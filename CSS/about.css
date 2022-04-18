@@ -111,11 +111,11 @@
         padding: 100px 15px;
     }
 
-    .sub-form textarea {        
+    .miller .fl-setup-cont p {
         width: 100%;
     }
-
-    .miller .fl-setup-cont p {
+    
+    .sub-form textarea {        
         width: 100%;
     }
 }

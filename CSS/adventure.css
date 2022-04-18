@@ -16,3 +16,104 @@
         max-width: 100%;
     }
 }
+
+.adventure-pg .fl-setup-img {
+    height: 590px;
+}
+
+.roads,
+.friendly {
+    background-color: #485342;
+}
+
+.playful {
+    background-color: #dbe2dd;
+}
+
+.impressive {
+    background-color: #c7cec9;
+}
+
+
+.roads .fl-setup-img {
+    background-image: url(/ASSETS/IMAGES/image-horizontal.jpg);
+}
+
+.playful .fl-setup-img {
+    background-image: url(/ASSETS/IMAGES/image-horizontal.jpg);
+}
+
+.impressive .fl-setup-img {
+    background-image: url(/ASSETS/IMAGES/image-horizontal.jpg);
+}
+
+.friendly .fl-setup-img {
+    background-image: url(/ASSETS/IMAGES/image-horizontal.jpg);
+}
+
+.playful .h4-b,
+.friendly .h4-b {
+    width: 330px;
+}
+
+.playful .fl-setup,
+.friendly .fl-setup {
+    flex-direction: row-reverse;
+}
+
+.playful .fl-setup-cont,
+.friendly .fl-setup-cont {
+    width: 610px;
+}
+
+.roads .fl-setup-cont,
+.impressive .fl-setup-cont {
+    padding-left: 100px;
+}
+
+@media (max-width: 1260px) {
+    .roads .fl-setup-cont,
+    .impressive .fl-setup-cont {
+        padding-left: 70px;
+    }
+
+    .playful .fl-setup-cont,
+    .friendly .fl-setup-cont {
+        width: 47.5vw;
+    }
+}
+
+@media (max-width: 920px) {
+    .playful .fl-setup,
+    .friendly .fl-setup {
+        flex-direction: column;
+    }
+
+    .roads .fl-setup-cont,
+    .playful .fl-setup-cont,
+    .impressive .fl-setup-cont,
+    .friendly .fl-setup-cont {
+        padding: 0;
+    }
+
+    .playful .fl-setup-cont,
+    .friendly .fl-setup-cont {
+        width: 100%;
+    }
+
+    .roads,
+    .friendly,
+    .playful,
+    .impressive {
+        padding: 70px 15px;
+    }
+
+    .playful .fl-setup-cont p,
+    .friendly .fl-setup-cont p {
+        width: 100%;
+    }
+
+    .adventure-pg .fl-setup-img {
+        height: 51vh;
+    }
+}
