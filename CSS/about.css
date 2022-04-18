@@ -59,6 +59,29 @@
     padding-left: 100px;
 }
 
+.come-visit {
+    background-color:#2e3a2a;
+}
+
+.come-visit .sub-cont p,
+.come-visit .sub-cont h2 {
+    transform: translateY(70%);
+}
+
+.sub-form textarea {
+    border: none;
+    outline: none;
+    background-color: #b4bab6;
+    padding: 8px 15px;
+    width: 33vw;
+    margin-bottom: 20px;
+}
+
+.sub-form textarea::placeholder {
+    font-size: 14px;
+}
+
+
 @media (max-width: 1260px) {
     .jessie .fl-setup-cont {
         padding-left: 70px;
@@ -78,5 +101,9 @@
     .jessie,
     .miller {
         padding: 100px 15px;
+    }
+
+    .sub-form textarea {        
+        width: 100%;
     }
 }
