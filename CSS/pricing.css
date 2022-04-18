@@ -1,0 +1,27 @@
+.pricing-pg .info-cont {
+    max-width: 60vw;
+}
+
+.pricing-pg .info p {
+    max-width: 40vw;
+    margin: 0 auto;
+}
+
+@media (max-width: 920px) {
+    .pricing-pg .info-cont {
+        max-width: 100%;
+    }
+
+    .pricing-pg .info p {
+        max-width: 100%;
+    }
+}
+
+.offer-1,
+.offer-3 {
+    background-color: #5c6756;
+}
+
+.pricing-pg .slideshow {
+    background-color: #5c6756;
+}
