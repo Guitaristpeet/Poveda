@@ -71,6 +71,44 @@
     padding-left: 100px;
 }
 
+.offer {
+    background-color: #c7cec9;
+}
+
+.from {
+    font-size: 24px;
+    margin-right: 20px;
+}
+
+.price {
+    font-size: 112px;
+}
+
+.offer-flex {
+    display: flex;
+    padding: 125px 0;
+}
+
+.offer-cont,
+.offer-price {
+    width: 50%;
+}
+
+.offer-price {
+    text-align: center;
+}
+
+.from,
+.price {
+    display: inline-block;
+    transform: translateX(75px);
+}
+
+.offer-cont h4,
+.offer-cont p {
+    margin-bottom: 20px;
+}
+
 @media (max-width: 1260px) {
     .roads .fl-setup-cont,
     .impressive .fl-setup-cont {
@@ -115,5 +153,37 @@
 
     .adventure-pg .fl-setup-img {
         height: 51vh;
+    }
+
+    .offer-flex {
+        flex-direction: column;
+        padding: 80px 15px;
+    }
+
+    .offer h4 {
+        font-size: 28px;
+    }
+    
+    .price {
+        font-size: 56px;
+    }
+
+    .offer-cont,
+    .offer-price {
+        width: 100%;
+    }
+
+    .offer-price {
+        text-align: left;
+    }
+    
+    .from,
+    .price {
+        display: block;
+        transform: translateX(0);
+    }
+
+    .offer button {
+        margin-bottom: 50px;
     }
 }
