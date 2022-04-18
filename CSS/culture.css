@@ -16,3 +16,53 @@
         max-width: 100%;
     }
 }
+
+/* Roads -> colorful
+Playful -> ancient
+Impressive -> exotic
+ */
+
+ .culture-pg .fl-setup-img {
+    height: 590px;
+}
+
+.colorful {
+    background-color: #5c6756;
+}
+
+.ancient {
+    background-color: #dbe2dd;
+}
+
+.exotic {
+    background-color: #c7cec9;
+}
+
+.colorful .fl-setup-img {
+    background-image: url(/ASSETS/IMAGES/image-horizontal.jpg);
+}
+
+.ancient .fl-setup-img {
+    background-image: url(/ASSETS/IMAGES/image-horizontal.jpg);
+}
+
+.exotic .fl-setup-img {
+    background-image: url(/ASSETS/IMAGES/image-horizontal.jpg);
+}
+
+.ancient .h4-b {
+    width: 330px;
+}
+
+.ancient .fl-setup {
+    flex-direction: row-reverse;
+}
+
+.ancient .fl-setup-cont {
+    width: 610px;
+}
+
+.colorful .fl-setup-cont,
+.exotic .fl-setup-cont {
+    padding-left: 100px;
+}
