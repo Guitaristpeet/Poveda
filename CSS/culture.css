@@ -1,3 +1,8 @@
+.culture-pg .hero {
+    background-image: url(/ASSETS/IMAGES/image-11.jpg);
+    background-position: bottom;
+}
+
 .culture-pg .info-cont {
     max-width: 60vw;
 }
@@ -34,15 +39,15 @@
 }
 
 .colorful .fl-setup-img {
-    background-image: url(/ASSETS/IMAGES/image-horizontal.jpg);
+    background-image: url(/ASSETS/IMAGES/image-12.jpg);
 }
 
 .ancient .fl-setup-img {
-    background-image: url(/ASSETS/IMAGES/image-horizontal.jpg);
+    background-image: url(/ASSETS/IMAGES/image-13.jpg);
 }
 
 .exotic .fl-setup-img {
-    background-image: url(/ASSETS/IMAGES/image-horizontal.jpg);
+    background-image: url(/ASSETS/IMAGES/image-14.jpg);
 }
 
 .ancient .h4-b {

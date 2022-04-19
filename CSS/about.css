@@ -1,3 +1,8 @@
+.about-pg .hero {
+    background-image: url(/ASSETS/IMAGES/image-4.jpg);
+    background-position: center;
+}
+
 .info {
     background-color: #c7cec9;
     padding: 150px 15px;
@@ -26,11 +31,13 @@
 }
 
 .jessie .fl-setup-img {
-    background-image: url(/ASSETS/IMAGES/image-horizontal.jpg);
+    background-image: url(/ASSETS/IMAGES/image-jessie.jpg);
+    background-position: center;
 }
 
 .miller .fl-setup-img {
-    background-image: url(/ASSETS/IMAGES/image-horizontal.jpg);
+    background-image: url(/ASSETS/IMAGES/image-miller.jpg);
+    background-position: top;
 }
 
 .miller .h4-b {

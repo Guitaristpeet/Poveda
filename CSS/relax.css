@@ -1,3 +1,8 @@
+.relax-pg .hero {
+    background-image: url(/ASSETS/IMAGES/image-15.jpg);
+    background-position: center;
+}
+
 .relax-pg .info-cont {
     max-width: 60vw;
 }
@@ -34,15 +39,15 @@
 }
 
 .beautiful .fl-setup-img {
-    background-image: url(/ASSETS/IMAGES/image-horizontal.jpg);
+    background-image: url(/ASSETS/IMAGES/image-16.jpg);
 }
 
 .amazing .fl-setup-img {
-    background-image: url(/ASSETS/IMAGES/image-horizontal.jpg);
+    background-image: url(/ASSETS/IMAGES/image-17.jpg);
 }
 
 .mindfulness .fl-setup-img {
-    background-image: url(/ASSETS/IMAGES/image-horizontal.jpg);
+    background-image: url(/ASSETS/IMAGES/image-18.jpg);
 }
 
 .amazing .h4-b {

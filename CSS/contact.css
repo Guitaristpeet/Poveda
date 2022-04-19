@@ -1,3 +1,8 @@
+.contact-pg .hero {
+    background-image: url(/ASSETS/IMAGES/image-20.jpg);
+    background-position: bottom;
+}
+
 .contact-pg .info-cont {
     max-width: 60vw;
 }

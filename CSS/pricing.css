@@ -1,3 +1,8 @@
+.pricing-pg .hero {
+    background-image: url(/ASSETS/IMAGES/image-19.jpg);
+    background-position: bottom;
+}
+
 .pricing-pg .info-cont {
     max-width: 60vw;
 }

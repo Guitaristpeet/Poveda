@@ -71,15 +71,16 @@ body {
 }
 
 .licence-adventure .md-setup-img1 {
-    background-image: url(/ASSETS/IMAGES/image-vertical.jpg);
+    background-image: url(/ASSETS/IMAGES/image-adventure.jpg);
+    background-position: bottom;
 }
 
 .licence-culture .md-setup-img2 {
-    background-image: url(/ASSETS/IMAGES/image-vertical.jpg);
+    background-image: url(/ASSETS/IMAGES/image-culture.jpg);
 }
 
 .licence-relaxation .md-setup-img3 {
-    background-image: url(/ASSETS/IMAGES/image-vertical.jpg);
+    background-image: url(/ASSETS/IMAGES/image-relax.jpg);
 }
 
 .licence-adventure,
@@ -132,11 +133,11 @@ body {
 }
 
 .place-to-be .fl-setup-img {
-    background-image: url(/ASSETS/IMAGES/image-horizontal.jpg);
+    background-image: url(/ASSETS/IMAGES/image-2.jpg);
 }
 
 .in-love .fl-setup-img {
-    background-image: url(/ASSETS/IMAGES/image-horizontal.jpg);
+    background-image: url(/ASSETS/IMAGES/image-3.jpg);
 }
 
 .fl-setup-cont .h4-b {
@@ -239,15 +240,19 @@ blockquote {
 }
 
 .follow-adventure .md-setup-img1 {
-    background-image: url(/ASSETS/IMAGES/image-vertical.jpg);
+    background-image: url(/ASSETS/IMAGES/follow-1.jpg);
+    background-position: bottom;
 }
 
 .follow-culture .md-setup-img2 {
-    background-image: url(/ASSETS/IMAGES/image-vertical.jpg);
+    background-image: url(/ASSETS/IMAGES/follow-2.jpg);
+    background-position: bottom;
+
 }
 
 .follow-relaxation .md-setup-img3 {
-    background-image: url(/ASSETS/IMAGES/image-vertical.jpg);
+    background-image: url(/ASSETS/IMAGES/follow-3.jpg);
+    background-position: center;
 }
 
 .follow-adventure,
